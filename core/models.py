@@ -108,7 +108,7 @@ class BillingAddress(models.Model):
                              on_delete=models.CASCADE)
     street_address = models.CharField(max_length=100)
     apartment_address = models.CharField(max_length=100)
-    country = CountryField(multiple=False)
+    country = CountryField(multiple=False,default='India')
     zip = models.CharField(max_length=100)
 
     def __str__(self):
