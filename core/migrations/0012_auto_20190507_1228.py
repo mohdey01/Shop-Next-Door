@@ -18,7 +18,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='billingaddress',
             name='country',
-            field=django_countries.fields.CountryField(default='China', max_length=255),
+            field=django_countries.fields.CountryField(default='China'),
             preserve_default=False,
         ),
     ]
