@@ -10,14 +10,14 @@ This project includes:
 5. Payment and Checkout using StripeAPI
 6. Request Refund for your order
 
-##Website information
+## Website information
 
 [ShopNextDoor-Demo Test Website](https://shop-next-door.herokuapp.com/)
 
-1.The above website is entirely for demo and learning purpose and is not accepting any kind of orders or payments
-2.User can use the website to check the working and functionalities
-3.For testing the payment you can use card number as 4242424242424242(card number)	Any 3 digits(CVC)	Any future date(card expire date)
-(Reference : JustDjango)
+1. The above website is entirely for demo and learning purpose and is not accepting any kind of orders or payments
+2. User can use the website to check the working and functionalities
+3. For testing the payment you can use card number as 4242424242424242(card number)	Any 3 digits(CVC)	Any future date(card expire date)
+    (Reference : JustDjango)
 
 ## Getting started
 
