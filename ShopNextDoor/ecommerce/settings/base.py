@@ -4,7 +4,6 @@ from decouple import config
 BASE_DIR = os.path.dirname(os.path.dirname(
     os.path.dirname(os.path.abspath(__file__))))
 
-
 SECRET_KEY = config('SECRET_KEY')
 
 INSTALLED_APPS = [
@@ -14,14 +13,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
     'django.contrib.sites',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
     'crispy_forms',
     'django_countries',
-
+    'storages',
     'core'
 ]
 
