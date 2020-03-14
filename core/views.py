@@ -14,8 +14,8 @@ import string
 import stripe
 
 
-stripe.api_key = 'sk_test_JNK5OusND4My92qzHeqlY0Z100tXWMbcWs'
-
+stripe.api_key = settings.STRIPE_SECRET_KEY
+stripePublicKey=settings.STRIPE_PUBLIC_KEY
 
 def create_ref_code():
     return ''.join(random.choices(string.ascii_lowercase + string.digits, k=20))
@@ -84,7 +84,8 @@ class PaymentView(View):
         if order.billing_address:
             context = {
                 'order': order,
-                'DISPLAY_COUPON_FORM': False
+                'DISPLAY_COUPON_FORM': False,
+                'stripePublicKey':stripePublicKey 
             }
             return render(self.request, "payment.html", context)
         else:
