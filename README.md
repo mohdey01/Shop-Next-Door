@@ -13,14 +13,14 @@ This project includes:
 
 ## Website information
 
-[ShopNextDoor-Demo Test Website-beta](https://shop-next-door.herokuapp.com/)
+[ShopNextDoor-Demo Test Website](https://shop-next-door.herokuapp.com/)
 
 1. The above website is entirely for demo and learning purpose and is not accepting any kind of orders or payments
 2. User can use the website to check the working and functionalities
 3. For testing the payment you can use card number as 4242424242424242(card number)	Any 3 digits(CVC)	Any future date(card expire date)
 4. Try Redeeming the Coupon by using NEW_USER for checking the coupon functionality
-5. Working on the Images part to upload it on Amazon S3 which is the reason images may not showing
-    (Reference : JustDjango)
+5. Media Images and static files are uploaded on Amazon S3 Bucket for secure object storage
+    #(Reference : JustDjango)
 
 ## Getting started
 
